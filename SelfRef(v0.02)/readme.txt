@@ -1,5 +1,5 @@
 Firstly, thank you for downloading my python script =).
-Download pydroid app on playstore, 
+Download the pydroid3 app on playstore, 
 You'll need to download matplotlib module needed to create the pie graph.
 instructions on how to download it:
 	1)after installing pydroid3 app on your phone,
