@@ -185,6 +185,8 @@ def self_ref():
             write_file(new_com, "event", current_time)
         elif command==pie_graph(command, valid_data, invalid_data,focus_thoughts):
            pass
+        elif command in valid_data in focus_thoughts:
+            write_file(command, "event", current_time)
         elif command in valid_data:
             write_file(command, "good", current_time)
             valid_data.append(command)
