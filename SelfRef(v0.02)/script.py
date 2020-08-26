@@ -170,13 +170,13 @@ def self_ref():
             new_com=input(">")
             valid_thoughts_data.append(brain.generate_thought("good", new_com, current_time))
             write_file(new_com, "good", current_time)
-            valid_data.append(new_com)
+            
         elif command=="iv data":
             print(">enter invalid data")
             new_com=input(">")
             invalid_thoughts_data.append(brain.generate_thought("bad", new_com, current_time))
             write_file(new_com, "bad", current_time)
-            invalid_data.append(new_com)
+           
             
         elif command=="update event":
             print(">Enter event to focus")
